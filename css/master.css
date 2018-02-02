@@ -142,7 +142,7 @@ html, body{
 
 /*   SECTION 2   */
 .container{
-  display: flex;
+  display: inline-block;
 }
 
 .posts{
@@ -275,7 +275,7 @@ html, body{
 
 .principal{
   width: 60%;
-  height: 700px;
+/*   height: 700px; */
   background-color: rgb(208, 208, 208);
   margin-left: auto;
   margin-right: auto;
