@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/master.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
+    <title>Contato - P1</title>
+  </head>
+  <body>
+    <header class="cabeçalho">
+      <img class="pc1" src="./img/pc1.jpg" alt="computador">
+      <a href="#" target="_blank"><img id="logo-debian" src="./img/debian.png" alt="Logo Debian"></a>
+      <h1 class="title">Enthusiast Computing</h1>
+    </header>
+    <nav>
+      <ul class="lista">
+        <li class="item-lista"><a class="item-lista-link" href="./index.html">Início</a></li>
+        <li class="item-lista"><a class="item-lista-link" href="./sobre.html">Sobre</a></li>
+        <li class="item-lista"><a class="item-lista-link" href="./historia.html">História</a></li>
+        <li class="item-lista"><a class="item-lista-link" href="./contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <section class="principal">
+      <article id="contact-form">
+        <header class="post-header"><h1 class="post-titulo">Contato</h1></header>
+        <div class="post-content">
+          <p>Esta é uma página Contato com algumas informações básicas de contato e um formulário de contato.
+            <div id='contact-form-2'>
+              <form action='' method='post' class='form'>
+                <div>
+                  <label for='nome' class='label-name'>Nome<span class="marcacao"> (obrigatório)</span></label>
+                  <input type='text' name='nome' id='nome' value='' class='name'  required aria-required='true'/>
+                </div>
+
+                <div>
+                  <label for='email' class='label-email'>Email<span class="marcacao"> (obrigatório)</span></label>
+                  <input type='email' name='email' id='email' value='' class='email'  required aria-required='true'/>
+                </div>
+
+                <div>
+                  <label for='site' class='label-url'>Site</label>
+                  <input type='text' name='site' id='site' value='' class='url'  />
+                </div>
+
+                <div>
+                  <label for='contact-form-comment-comentrio' class='label-textarea'>Comentário<span class="marcacao"> (obrigatório)</span></label>
+                  <textarea name='comentrio' id='contact-form-comment-comentrio' rows='20' class='textarea'  required aria-required='true'></textarea>
+                </div>
+                <p class='contact-submit'>
+                  <input type='submit' value='Enviar &#187;' class='pushbutton-wide'/>
+                  <input type='hidden' name='contact-form-id' value='3' />
+                  <input type='hidden' name='action' value='grunion-contact-form' />
+                </p>
+              </form>
+            </div>
+          </p>
+        </div>
+      </article>
+    </section>
+    <footer>
+      <nav>
+        <ul class="lista">
+          <li class="item-lista"><a class="item-lista-link" href="./index.html">Início</a></li>
+          <li class="item-lista"><a class="item-lista-link" href="./sobre.html">Sobre</a></li>
+          <li class="item-lista"><a class="item-lista-link" href="./historia.html">História</a></li>
+          <li class="item-lista"><a class="item-lista-link" href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

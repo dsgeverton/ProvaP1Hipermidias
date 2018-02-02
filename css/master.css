@@ -1,0 +1,395 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+  font-style: sans-serif;
+}
+
+/*  PARTE DO CABEÇALHO   */
+.cabeçalho {
+  background: url("../img/vga2.jpg");
+  background-size:auto;
+  color: white;
+}
+
+.cabeçalho:hover{
+  padding-bottom: 10%;
+  transition-duration: 1s;
+  font-size: 30pt;
+}
+
+.pc1{
+  width: 30%;
+  min-width: 150px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 15px;
+  opacity: 0.92;
+}
+
+#logo-debian{
+  width: 5%;
+  min-width: 64px;
+  position: relative;
+  top: 25px;
+  right: 20px;
+  float: right;
+}
+
+.title {
+  margin: 0px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+/*    PARTE DO MENU SUPERIOR     */
+.lista {
+  margin: 0px;
+  background-color: rgb(171, 22, 17);
+  list-style-type: none;
+  /*padding: 10px;*/
+  padding-left: 20px;
+  clear: both;
+}
+
+.item-lista {
+  display: inline;
+  position: relative;
+  width: 100px;
+  text-align: center;
+}
+
+.item-lista-link{
+  color: white;
+  text-decoration: none;
+  font-size: 14pt;
+  padding: 10px;
+  display: inline-block;
+  width: 80px;
+}
+
+.item-lista-link:hover{
+  background-color: rgb(17, 17, 17);
+  box-shadow: 2px 1px rgb(134, 212, 111);
+  color: rgb(32, 230, 0);
+  text-shadow: 1px 1px 5px rgba(134, 212, 111, 0.64);
+}
+
+/*   SECTION PRINCIPAL   */
+.conteudo-principal{
+  width: 100%;
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+/*   ARTICLE   */
+.conteudo-principal .cntd-article{
+  width: 70%;
+  float: left;
+}
+
+.conteudo-principal .cntd-article .imagem-painel{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conteudo-principal .cntd-article .cntd-imagem{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  min-width: 240px;
+}
+
+.cntd-article h2{
+  text-align: center;
+}
+
+.cntd-article .textos{
+  margin: 20px;
+}
+
+.cntd-article p{
+  text-indent: 2em;
+}
+
+/* ASIDES*/
+.cntd-aside{
+  margin-top: 20px;
+  padding: 10px;
+  overflow: auto;
+  background-color: rgb(19, 19, 19);
+  width: 28%;
+  min-width: 250px;
+  /*float: right;*/
+}
+
+.cntd-aside h2{
+  color: rgb(203, 52, 11);
+}
+
+.cntd-aside ul{
+  list-style-type: none;
+  color: white;
+  padding: 0px;
+}
+
+.cntd-aside li{
+  background-color: rgb(55, 55, 55);
+  margin-bottom: 5px;
+  padding: 3px;
+}
+
+/*   SECTION 2   */
+.container{
+  display: flex;
+}
+
+.posts{
+  text-align: center;
+}
+
+
+.col-sm-4{
+  color: rgb(134, 212, 111);
+  background-color:rgb(19, 19, 19);
+  margin: 20px;
+  display: inline-block;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.76);
+  width: 350px;
+  /* height: 500px; */
+}
+
+.col-image{
+  position: relative;
+  width: 250px;
+}
+.col-image:hover{
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.4);
+  -o-transform: scale(1.3);
+  transition-duration: 0.2s;
+}
+
+.col-sm-4 .textos{
+  margin: 15px;
+}
+
+.col-sm-4 p{
+  color: rgb(231, 224, 224);
+}
+
+.col-sm-4 a{
+  font-size: 14pt;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(171, 22, 17);
+  text-shadow: 1px 1px 2px black;
+  position: relative;
+  text-decoration: none;
+  left: 200px;
+}
+
+.col-sm-4 a:hover{
+  /*color: rgb(203, 52, 11);*/
+  color: rgb(32, 230, 0);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.64);
+}
+
+/* -------------------------- PÁGINA SOBRE --------------------------------- */
+.page-sobre-container{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-sobre-container p{
+  text-indent: 2em;
+}
+
+.page-sobre-article{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-sobre-figure{
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(217, 217, 217);
+  text-align: center;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  border: thin solid silver;
+}
+.page-sobre-figure img{
+  max-width: 100%;
+}
+
+.page-sobre-figure figcaption{
+  font-style: oblique;
+  font-weight: bold;
+}
+
+/* -------------------------- PÁGINA HISTÓRIA --------------------------------- */
+
+.page-historia-container{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-historia-container p{
+  text-indent: 2em;
+}
+
+.page-historia-article{
+  position: relative;
+  float: right;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 20px;
+}
+
+.page-historia-figure{
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(217, 217, 217);
+  text-align: center;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  border: thin solid silver;
+}
+.page-historia-figure img{
+  max-width: 100%;
+}
+
+.page-historia-figure figcaption{
+  font-style: oblique;
+  font-weight: bold;
+}
+
+/* -------------------------- PÁGINA CONTATOS --------------------------------- */
+
+.principal{
+  width: 60%;
+  height: 700px;
+  background-color: rgb(208, 208, 208);
+  margin-left: auto;
+  margin-right: auto;
+  /* text-align: center; */
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 13px silver;
+}
+
+.post-header {
+  border-bottom: thin solid white;
+  font-family: sans-serif;
+}
+
+.post-titulo {
+  font-size: 28pt;
+  color: white;
+}
+
+.post-content {
+  font-size: 14pt;
+}
+
+.form {
+  margin: 0 auto;
+  max-width: 850px;
+  padding: 20px 10px;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 8px;
+}
+
+.marcacao{
+  color: white;
+}
+
+.label-name {
+  display: block;
+  padding-bottom: 5px;
+  color: #000;
+}
+
+.name {
+  display: block;
+  width: 50%;
+  min-width: 190px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.label-email {
+  display: block;
+  padding-bottom: 5px;
+  color: #000;
+}
+
+.email {
+  display: block;
+  width: 50%;
+  min-width: 190px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.label-url {
+  display: block;
+  padding-bottom: 5px;
+  color: #000;
+}
+
+.url {
+  display: block;
+  width: 50%;
+  min-width: 190px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.label-textarea {
+  display: block;
+  padding-bottom: 5px;
+  color: #000;
+}
+
+.textarea {
+  display: block;
+  width: 80%;
+  min-width: 190px;
+  height: 150px;
+}
+
+.contact-submit {
+  color: red;
+}
+
+.pushbutton-wide {
+  color: white;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  background: #3f4854;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-family: "Roboto Slab",sans-serif;
+  line-height: 1;
+  margin: 0;
+  padding: 12px 16px;
+  -webkit-appearance: none;
+}
+
+.pushbutton-wide:hover {
+  background: #13c4a5;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
